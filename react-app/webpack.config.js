@@ -14,12 +14,12 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.tsx?$/, loader: "babel-loader" },
+      { test: /\.tsx$/, loader: "babel-loader" },
       { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
     ]
   },
 
   devServer: {
-    contentBase: rootPath + '/dist',
+    contentBase: rootPath,
   }
 };
