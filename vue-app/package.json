@@ -10,7 +10,8 @@
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-custom-element": "^3.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
